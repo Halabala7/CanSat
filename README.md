@@ -1,48 +1,43 @@
-# 🚀 CanSat 2024 – Projekt MechanSat
+# 🚀 CanSat 2024 – MechanSat Project
 
-## 📌 Opis projektu
+Project Overview
 
-CanSat to ogólnopolski konkurs organizowany przez Europejską Agencję Kosmiczną (ESA), w którym zespoły konstruują minisatelity wielkości puszki po napoju. 
-Projekt CanSat symuluje prawdziwą misję kosmiczną — od zaprojektowania urządzenia, przez testy, aż po analizę danych z lotu.
+CanSat is a prestigious national competition organized by the European Space Agency (ESA), where teams design and build a mini-satellite the size of a soft drink can. The project simulates a real space mission — spanning from initial device design and testing to in-flight data analysis.
 
-W 2024 roku wziąłem udział w tym konkursie jako członek drużyny **MechanSat**, z którą otrzymaliśmy **wyróżnienie na szczeblu ogólnopolskim**. Byłem odpowiedzialny za progamowanie mikrokontrolerów oraz analize danych.
+In 2024, I participated in this competition as a member of the **MechanSat** team, where we received an **official distinction award at the national level**. My primary responsibilities included microcontroller programming and data analysis.
 
-## 🔧 Technologie i narzędzia
+## Technologies & Tools
 
-- **Python** – do analizy danych z czujników i wizualizacji pomiarów.
-- **Arduino IDE / C++** – do programowania mikrokontrolera i czujników.
-- **Mikrokontrolery (ATmega, ESP)** – do zbierania i przetwarzania danych.
-- **System komunikacji LoRa** – do bezprzewodowego przesyłania danych telemetrycznych z CanSata do stacji naziemnej.
-- **Czujniki** – ciśnienia, temperatury, wysokości, GPS, akcelerometry.
-- **Serial communication (UART)** – komunikacja z urządzeniami i logowanie danych.
+* **Python** – Used for processing sensor data and creating measurement visualizations.
+* **Arduino IDE / C++** – Used for programming the microcontroller and sensor logic.
+* **Microcontrollers (ATmega, ESP)** – Handled data collection and on-board processing.
+* **LoRa Communication System** – Implemented for long-range, wireless telemetry transmission from the CanSat to the ground station.
+* **Sensors** – Integrated barometric pressure, temperature, altitude, GPS, and accelerometer sensors.
+* **Serial Communication (UART)** – Utilized for component interfacing and data logging.
 
-## 🧠 Czego się nauczyłem
+## Key Takeaways & Skills Earned
 
-- Podstawy pracy z **mikrokontrolerami**.
-- Obsługa i programowanie **czujników środowiskowych**.
-- Konfiguracja i implementacja **komunikacji LoRa** między urządzeniami.
-- Przetwarzanie danych telemetrycznych w czasie rzeczywistym.
-- Tworzenie skryptów do **wizualizacji danych w Pythonie**.
-- Testowanie systemów w warunkach rzeczywistych i symulowanych.
-- Praca zespołowa przy projekcie technicznym.
+* Fundamental knowledge of **embedded systems** and microcontroller architecture.
+* Interfacing, configuring, and programming **environmental sensors**.
+* Setting up and optimizing **LoRa wireless communication** protocols between devices.
+* Processing and handling **real-time telemetry data**.
+* Developing Python scripts for advanced **data visualization**.
+* System testing under simulated and real-world environmental conditions.
+* Effective **team collaboration** within a complex technical project.
 
-## 🛰️ Cele misji CanSat
+## Mission Objectives
 
-- Przeprowadzenie pomiarów ciśnienia, temperatury, wysokości i prędkości opadania.
-- Przesyłanie danych telemetrycznych przez **LoRa** do stacji naziemnej.
-- Zbieranie danych do dalszej analizy i prezentacji wyników.
+* Perform real-time measurements of atmospheric pressure, temperature, altitude, and descent rate.
+* Transmit telemetry data wirelessly via **LoRa** to the ground station.
+* Collect and log flight data for post-mission analysis and final results presentation.
 
-## 📡 Komunikacja
+## Communication & Telemetry
 
-Dane telemetryczne były przesyłane z CanSata w czasie rzeczywistym za pomocą **modułów LoRa** do odbiornika po stronie stacji naziemnej, który był podłączony do komputera. Rozwiązanie to umożliwiło:
+Telemetry data was transmitted from the CanSat in real-time using **LoRa modules** to a ground station receiver connected to a PC. This approach ensured:
+* Stable, long-range data transmission during flight.
+* Reliable data reception under challenging environmental conditions.
+* Seamless live analysis and logging directly onto the team's laptop.
 
-- Stabilną transmisję danych na dużą odległość,
-- Odbiór danych w trudnych warunkach środowiskowych,
-- Analizę i zapis danych bezpośrednio na laptopie drużyny.
+## 🏆 Achievements & Recognition
 
-## 📷 Wyróżnienie
-
-Zespół **MechanSat** otrzymał wyróżnienie na etapie ogólnopolskim konkursu CanSat 2024.
-
-
-
+The **MechanSat** team was honored with an **official distinction award** at the national finals of the CanSat 2024 competition.
